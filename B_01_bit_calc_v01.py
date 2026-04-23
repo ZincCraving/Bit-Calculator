@@ -113,7 +113,10 @@ def calc_text_bits():
 
 
 #Display instructions if requested
-want_instructions = input("Press <enter> to read the instructions "
+
+statement_generator("Bit Calculator", "-")
+
+want_instructions = input(f"\nPress <enter> to read the instructions "
                           "or any key to continue")
 
 if want_instructions == "":
